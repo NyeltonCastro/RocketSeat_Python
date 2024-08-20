@@ -1,0 +1,145 @@
+[
+    {
+        "label": "nome_completo",
+        "importPath": "tipos_variaveis.text",
+        "description": "tipos_variaveis.text",
+        "isExtraImport": true,
+        "detail": "tipos_variaveis.text",
+        "documentation": {}
+    },
+    {
+        "label": "numero_inteiro",
+        "kind": 5,
+        "importPath": "tipos_variaveis.numeros",
+        "description": "tipos_variaveis.numeros",
+        "peekOfCode": "numero_inteiro = 3\nprint(\"Inteiro = \", numero_inteiro)\n# Real com ponto flutuante\nnumero_real = 3.14\nprint(\"Ponto flutuante = \", numero_real)\n# type(): retorna o tipo da variavel\nprint(\"Tipo da variavel inteiro = \", type(numero_inteiro))\nprint(\"Tipo da variavel real = \", type(numero_real))\n# Convertendo; divisão em tipo int se usa //\nsoma = float(2+2)",
+        "detail": "tipos_variaveis.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "print(\"Inteiro",
+        "kind": 5,
+        "importPath": "tipos_variaveis.numeros",
+        "description": "tipos_variaveis.numeros",
+        "peekOfCode": "print(\"Inteiro = \", numero_inteiro)\n# Real com ponto flutuante\nnumero_real = 3.14\nprint(\"Ponto flutuante = \", numero_real)\n# type(): retorna o tipo da variavel\nprint(\"Tipo da variavel inteiro = \", type(numero_inteiro))\nprint(\"Tipo da variavel real = \", type(numero_real))\n# Convertendo; divisão em tipo int se usa //\nsoma = float(2+2)\nprint(soma)",
+        "detail": "tipos_variaveis.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "numero_real",
+        "kind": 5,
+        "importPath": "tipos_variaveis.numeros",
+        "description": "tipos_variaveis.numeros",
+        "peekOfCode": "numero_real = 3.14\nprint(\"Ponto flutuante = \", numero_real)\n# type(): retorna o tipo da variavel\nprint(\"Tipo da variavel inteiro = \", type(numero_inteiro))\nprint(\"Tipo da variavel real = \", type(numero_real))\n# Convertendo; divisão em tipo int se usa //\nsoma = float(2+2)\nprint(soma)\n# Modulo = %\nmodulo = 5 % 2",
+        "detail": "tipos_variaveis.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "tipos_variaveis.numeros",
+        "description": "tipos_variaveis.numeros",
+        "peekOfCode": "soma = float(2+2)\nprint(soma)\n# Modulo = %\nmodulo = 5 % 2\nprint(modulo)",
+        "detail": "tipos_variaveis.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "modulo",
+        "kind": 5,
+        "importPath": "tipos_variaveis.numeros",
+        "description": "tipos_variaveis.numeros",
+        "peekOfCode": "modulo = 5 % 2\nprint(modulo)",
+        "detail": "tipos_variaveis.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "nome_completo",
+        "kind": 5,
+        "importPath": "tipos_variaveis.text",
+        "description": "tipos_variaveis.text",
+        "peekOfCode": "nome_completo = \"Nyelton Castro\"\nnome_completo_aspas = \"\"\"Nyelton\nCastro\"\"\"\nnome_completo_quebra = \"Nyeton \\\nCastro\"\nnome = \"Nyelton\"\nsobrenome = \"Castro\"\n# Formatação\nprint (\"Nome completo (1a forma) = \", nome_completo)\nprint (\"Nome completo (2a forma) = \"+ nome_completo)",
+        "detail": "tipos_variaveis.text",
+        "documentation": {}
+    },
+    {
+        "label": "nome_completo_aspas",
+        "kind": 5,
+        "importPath": "tipos_variaveis.text",
+        "description": "tipos_variaveis.text",
+        "peekOfCode": "nome_completo_aspas = \"\"\"Nyelton\nCastro\"\"\"\nnome_completo_quebra = \"Nyeton \\\nCastro\"\nnome = \"Nyelton\"\nsobrenome = \"Castro\"\n# Formatação\nprint (\"Nome completo (1a forma) = \", nome_completo)\nprint (\"Nome completo (2a forma) = \"+ nome_completo)\nprint (\"Nome completo (3a forma) = \"+ \"Nyelton\" + \"Castro\")",
+        "detail": "tipos_variaveis.text",
+        "documentation": {}
+    },
+    {
+        "label": "nome_completo_quebra",
+        "kind": 5,
+        "importPath": "tipos_variaveis.text",
+        "description": "tipos_variaveis.text",
+        "peekOfCode": "nome_completo_quebra = \"Nyeton \\\nCastro\"\nnome = \"Nyelton\"\nsobrenome = \"Castro\"\n# Formatação\nprint (\"Nome completo (1a forma) = \", nome_completo)\nprint (\"Nome completo (2a forma) = \"+ nome_completo)\nprint (\"Nome completo (3a forma) = \"+ \"Nyelton\" + \"Castro\")\nprint (\"Nome completo (4a forma) = \"+\"Nyelton\", \"Castro\")\nprint (\"Nome completo (5a forma) = \", nome_completo_aspas)",
+        "detail": "tipos_variaveis.text",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "tipos_variaveis.text",
+        "description": "tipos_variaveis.text",
+        "peekOfCode": "nome = \"Nyelton\"\nsobrenome = \"Castro\"\n# Formatação\nprint (\"Nome completo (1a forma) = \", nome_completo)\nprint (\"Nome completo (2a forma) = \"+ nome_completo)\nprint (\"Nome completo (3a forma) = \"+ \"Nyelton\" + \"Castro\")\nprint (\"Nome completo (4a forma) = \"+\"Nyelton\", \"Castro\")\nprint (\"Nome completo (5a forma) = \", nome_completo_aspas)\nprint (\"Nome completo (6a forma) = \", nome_completo_quebra)\nprint (\"Nome completo (7a forma) = %s\" % (nome_completo))",
+        "detail": "tipos_variaveis.text",
+        "documentation": {}
+    },
+    {
+        "label": "sobrenome",
+        "kind": 5,
+        "importPath": "tipos_variaveis.text",
+        "description": "tipos_variaveis.text",
+        "peekOfCode": "sobrenome = \"Castro\"\n# Formatação\nprint (\"Nome completo (1a forma) = \", nome_completo)\nprint (\"Nome completo (2a forma) = \"+ nome_completo)\nprint (\"Nome completo (3a forma) = \"+ \"Nyelton\" + \"Castro\")\nprint (\"Nome completo (4a forma) = \"+\"Nyelton\", \"Castro\")\nprint (\"Nome completo (5a forma) = \", nome_completo_aspas)\nprint (\"Nome completo (6a forma) = \", nome_completo_quebra)\nprint (\"Nome completo (7a forma) = %s\" % (nome_completo))",
+        "detail": "tipos_variaveis.text",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "blocos",
+        "description": "blocos",
+        "peekOfCode": "idade = 12\nif idade < 18:\n    print(\"Menor de idade\")\nelse:\n    print(\"Maior de idade\")",
+        "detail": "blocos",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "sintaxe",
+        "description": "sintaxe",
+        "peekOfCode": "nome = \"Nyelton\"+\\\n\" Castro\"",
+        "detail": "sintaxe",
+        "documentation": {}
+    },
+    {
+        "label": "nome_completo",
+        "kind": 5,
+        "importPath": "variaveis",
+        "description": "variaveis",
+        "peekOfCode": "nome_completo = \"Nyelton Castro\"\nidade = 25\n# Camel case é usado em metodos e etc...\nnomeCompleto = \"Nyelton Castro\"",
+        "detail": "variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "variaveis",
+        "description": "variaveis",
+        "peekOfCode": "idade = 25\n# Camel case é usado em metodos e etc...\nnomeCompleto = \"Nyelton Castro\"",
+        "detail": "variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "nomeCompleto",
+        "kind": 5,
+        "importPath": "variaveis",
+        "description": "variaveis",
+        "peekOfCode": "nomeCompleto = \"Nyelton Castro\"",
+        "detail": "variaveis",
+        "documentation": {}
+    }
+]
