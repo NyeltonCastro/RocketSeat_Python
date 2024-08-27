@@ -41,7 +41,7 @@ print("Minha lista após pop(3)", minha_lista)
 minha_lista.remove(True)
 print("Minha lista após remove(True)", minha_lista)
 
-# Método sort(): Organiza a lista com valores do msm tipo
+# Método sort(): Organiza a lista com valores do mesmo tipo
 outra_lista = [8, 4, 3, 6, 9, 5, 7, 1]
 outra_lista.sort()
 print("Outra lista após o sort()", outra_lista)
